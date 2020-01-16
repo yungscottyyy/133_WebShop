@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ts-node ./src/server.ts && ng serve",
     "dev": "nodeman --watch src -e ts --exec npm run start",
     "build": "ng build",
     "test": "ng test",
@@ -20,6 +20,9 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@types/express-session": "^1.15.16",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
     "nodeman": "^1.1.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
