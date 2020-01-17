@@ -1,11 +1,19 @@
 import { Hero } from "../../types";
 
-const tbody = document.querySelector("table tbody");
-fetch("/api/heroes")
-    .then(r => r.json())
-    .then((heroes: Hero[]) => heroes
-        .forEach(hero => tbody
-            .innerHTML += `
-                <tr>
-                    <td>${hero.name}</td>
-                </tr>`));
+const form = document.querySelector("form");
+const nameInput = <HTMLInputElement>document.querySelector("#name");
+
+form.onsubmit = ($event) => {
+    $event.preventDefault();
+    const newHero: Hero = { name: nameInput.value };
+    fetch(
+        "/api/heroes",
+        {
+            body: JSON.stringify(newHero),
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            method: "POST"
+        })
+        .then(() => window.location.href = "http://localhost:8080")
+}
