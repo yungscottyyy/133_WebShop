@@ -9,4 +9,3 @@ fetch("/api/heroes")
                 <tr>
                     <td>${hero.name}</td>
                 </tr>`));
-                

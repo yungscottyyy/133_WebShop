@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+
+<div class="container">
+    <div class="row">
+        <div class="nopadding col-12 col-sm-12 col-lg-12">
+            <nav class="navbar navbar-exband-lg navbar-dark bg-dark">
+                <a href="/checkout" role="button" class="btn btn-lg btn-danger"><%=Number.parseFloat(total).toFixed(2) %></a>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="nopadding col-12 col-sm-12 col-lg-6 ">
+            <h2>Your shopping cart</h2>
+            <% for (product of cart) { %>
+            <%=product.name %><br>
+            <%} %>
+            <a href="/checkout" role="button" class="btn btn-primary btn-lg">Add to shopping cart</a>
+        </div>
+    </div>
+</div>

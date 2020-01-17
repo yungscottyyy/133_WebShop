@@ -33,8 +33,15 @@
     .productContainer {
         margin: 15px 20px;
     }
+    
+    .imageContainer {
+        width: 400px;
+    }
+
+    .imageContainer img {
+        width: 100%;
+    }
 }
 
 @media (min-width: 1200px) { 
-
 }

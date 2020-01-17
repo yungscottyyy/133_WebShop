@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+
+<div class="container">
+    <div class="row">
+        <div class="nopadding col-12 col-sm-12 col-lg-12">
+            <nav class="navbar navbar-exband-lg navbar-dark bg-dark">
+                <a href="/cart" role="button" class="btn btn-lg btn-danger"><%=Number.parseFloat(total).toFixed(2) %></a>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="nopadding col-12 col-sm-12 col-lg-6 ">
+            <form>
+                <div class="form-group">
+                    <label for="nameInput">Last name</label>
+                    <input type="text" class="form-control" id="nameInput" placeholder="Type in your last name">
+                </div>
+                <div class="form-group">
+                    <label for="surnameInput">Surname</label>
+                    <input type="text" class="form-control" id="surnameInput" placeholder="Type in your last surname">
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Email</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <p><%=Number.parseFloat(total).toFixed(2) %></p>
+                <a href="/thanks" role="button" class="btn btn-primary btn-lg">Check out</a>
+            </form>
+        </div>
+    </div>
+</div>

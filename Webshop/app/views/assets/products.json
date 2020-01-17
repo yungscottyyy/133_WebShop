@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Converse",
+        "image": "shoe-1",
+        "price": 80,
+        "description": "Brand new heat from Converse. Worth a cop",
+        "amount": 0
+    },
+    {
+        "id": 2,
+        "name": "Nike",
+        "image": "shoe-2",
+        "price": 80,
+        "description": "Brand new heat from Converse. Worth a cop",
+        "amount": 0
+    },
+    {
+        "id": 3,
+        "name": "Nike",
+        "image": "shoe-3",
+        "price": 80,
+        "description": "Brand new heat from Converse. Worth a cop",
+        "amount": 0
+    },
+    {
+        "id": 4,
+        "name": "Nike",
+        "image": "shoe-4",
+        "price": 80,
+        "description": "Brand new heat from Converse. Worth a cop",
+        "amount": 0
+    },
+    {
+        "id": 5,
+        "name": "Vans",
+        "image": "shoe-5",
+        "price": 80,
+        "description": "Brand new heat from Converse. Worth a cop",
+        "amount": 0
+    },
+    {
+        "id": 6,
+        "name": "Vans",
+        "image": "shoe-6",
+        "price": 80,
+        "description": "Brand new heat from Converse. Worth a cop",
+        "amount": 0
+    },
+    {
+        "id": 7,
+        "name": "Dr. Martens",
+        "image": "shoe-7",
+        "price": 80,
+        "description": "Brand new heat from Converse. Worth a cop",
+        "amount": 0
+    },
+    {
+        "id": 8,
+        "name": "Dr. Martens",
+        "image": "shoe-8",
+        "price": 80,
+        "description": "Brand new heat from Converse. Worth a cop",
+        "amount": 0
+    }
+]
