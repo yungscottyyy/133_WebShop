@@ -1,22 +1,11 @@
-# Beispielprojekt (Heores) mit TypeScript
-> Ein Projekt zur Hilfestellung für Lernende der [BBZW](https://beruf.lu.ch/berufsbildungszentren/bbzw)
+### Installation von Shop
+1. Repo klone mit folgendem link: ```git clone https://github.com/shouiii/133_WebShop_Joel_Imfeld```
+2. Mit ```cd``` in den Ordner Workshop navigieren
+3. ````npm i``` ausführen und alle Packages im package.json installieren
 
-Dieses Projekt zeigt, wie man eine einfache TypeScript-Applikation mit Backend (Express-Server)
-und Frontend (mit CSS-Framework, ohne JS/TS-Framework) bauen kann (Repetition über das gesamte Semester hinweg).
-
-In dieser Applikation können Helden angezeigt und erfasst werden.
-Diese Helden werden in einer Session gespeichert. Das bedeutet auf einer Installation kann jeder Benutzer
-seine eigenen Helden definieren.
-
-### Installation
-1. Den ganzen Ordner kopieren
-2. Das Terminal öffnen und mittels ```cd```-Befehl in das Verzeichnis navigieren
-3. Alle Abhängigkeiten welche in "package.json" definiert wurden per ```npm install``` installieren
-(wenn Sie nur ```npm install``` ohnen einen konkreten Paketnamen ausführen, werden alle Abhängigkeiten installiert)
-
-### Ausführen
-1. Im Terminal die Applikation mittels ```npm start``` starten
-2. Im Browser http://localhost:8080/ aufrufen
+### Webshop starten
+1. Terminal öffnen und im Verzeichnis "Workshop" ```npm run dev``` ausführen
+2. Browser mit folgender seite öffnen: http://localhost:8080 
 
 ### Lizenz
 [MIT](https://github.com/rollup/rollup/blob/master/LICENSE.md)
