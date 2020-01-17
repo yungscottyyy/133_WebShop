@@ -1,0 +1,40 @@
+{
+    "name": "heroes-simple-mpa-ts",
+    "version": "1.0.0",
+    "description": "Beispiel-Implementation einer TypeScript MPA",
+    "scripts": {
+        "prebuild:server": "node ./node_modules/rimraf/bin ./build",
+        "build:server": "tsc",
+        "postbuild:server": "node ./node_modules/copyfiles/copyfiles -u 1 ./app/views/**/* ./build",
+        "build:client": "webpack --mode=none",
+        "prestart": "npm run build:server && npm run build:client",
+        "start": "node ./build/server.js",
+        "dev": "nodemon --watch app -e ts,html,css --exec npm start"
+    },
+    "keywords": [
+        "BBZW",
+        "TypeScript",
+        "MPA"
+    ],
+    "author": "Domenic Helfenstein",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "1.19.0",
+        "express": "4.17.1",
+        "express-session": "1.17.0",
+        "mustache": "3.2.1",
+        "spectre.css": "0.5.8"
+    },
+    "devDependencies": {
+        "rimraf": "3.0.0",
+        "copyfiles": "2.1.1",
+        "typescript": "3.4.3",
+        "ts-loader": "6.2.1",
+        "webpack": "4.41.5",
+        "webpack-cli": "3.3.10",
+        "@types/mustache": "0.8.30",
+        "@types/express": "4.11.1",
+        "@types/express-session": "1.15.8",
+        "@types/body-parser": "1.17.0"
+    }
+}

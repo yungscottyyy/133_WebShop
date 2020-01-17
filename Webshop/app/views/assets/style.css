@@ -1,0 +1,40 @@
+.productContainer img {
+    width: 100%;
+}
+.productContainer {
+    margin: 15px 20px;
+}
+
+.productTitle {
+    text-transform: uppercase;
+}
+
+.col-6 {
+    padding: 0;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+@media (min-width: 576px) { 
+    .nopadding {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) { 
+    .productContainer {
+        margin: 15px 55px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .productContainer {
+        margin: 15px 20px;
+    }
+}
+
+@media (min-width: 1200px) { 
+
+}
