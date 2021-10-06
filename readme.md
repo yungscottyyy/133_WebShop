@@ -1,5 +1,5 @@
 ### Installation von Shop
-1. Repo klone mit folgendem link: ```git clone https://github.com/shouiii/133_WebShop_Joel_Imfeld```
+1. Repo klone mit folgendem link: ```git ```
 2. Mit ```cd``` in das Verzeichnis Workshop navigieren
 3. ```npm i``` ausführen und alle Packages im package.json installieren
 
